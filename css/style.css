@@ -16,6 +16,7 @@ body {
   --secondary--black: rgba(0, 0, 0, 1);
   --main-color-background: rgba(47, 48, 58, 1);
   --main-color-button: rgba(245, 244, 250, 1);
+  --main-color-svg: rgba(175, 177, 184, 1);
 }
 footer {
   background: rgba(47, 48, 58, 1);
@@ -24,15 +25,14 @@ footer {
   padding-top: 60px;
 }
 .tittle {
-  background: rgba(47, 48, 58, 1);
+  /* background: rgba(47, 48, 58, 1); */
   height: 600px;
   width: 100%;
-  background-image: url(./images/icons.svg#icon-antenna-1);
+  background-image: url(./images/tloportfolio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1600px;
-  background-image: linear-gradient(background: rgba(47, 48, 58, 0.4) ;);
 }
 .address {
   color: var(--main-color-white);
@@ -118,7 +118,6 @@ h2 {
 }
 .proffession {
   color: var(--main-color-grey);
-  padding-bottom: 30px;
 }
 .email,
 .telnr {
@@ -230,6 +229,7 @@ footer {
 }
 .ourteam-item {
   list-style: none;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .portfolio {
   display: flex;
@@ -239,6 +239,11 @@ footer {
 .portfolio-item {
   list-style: none;
   flex-basis: calc((100%- (2 * 30px)) / 3);
+  cursor: pointer;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .header {
   display: flex;
@@ -374,24 +379,17 @@ figure > img {
 .nasiklienci {
   height: 372px;
 }
-/* .loremipsum-items > .icon-box {
-  height: 120px;
-  padding: 25px 0;
-  background: rgba(245, 244, 250, 1);
-  margin-bottom: 30px; */
-.icons-svg {
-  width: 44px;
-  height: 44px;
-}
-/* .julita {
-  background-color: rgba(245, 244, 250, 1);
-  width: 270px;
-  height: 120px;
-} */
 .nasiklienci-svg {
   width: 170px;
   height: 92px;
-  border: 1px solid rgba(175, 177, 184, 1);
+  border: 1px solid var(--main-color-svg);
+  fill: var(--main-color-svg);
+  border-radius: 4px;
+}
+.nasiklienci-svg:hover,
+.nasiklienci-svg:focus {
+  fill: var(--main-color-blue);
+  border-color: var(--main-color-blue);
 }
 .nasiklienci-margin {
   margin-top: 94px;
@@ -405,7 +403,36 @@ figure > img {
   display: flex;
   gap: 30px;
 }
-.icon-Picture1 {
-  width: 35px;
-  height: 33, 13px;
+.loremsvg > li {
+  background-color: rgba(245, 244, 250, 1);
+}
+.socialmedia-icon {
+  fill: var(--main-color-svg);
+  width: 44px;
+  height: 44px;
+  padding-top: 12px;
+}
+.socialmedia-icon:hover,
+.socialmedia-icon:focus {
+  background-color: var(--main-color-blue);
+  border-radius: 22px;
+  fill: var(--main-color-white);
+}
+.ourteam-flex {
+  margin: 16px 32px 30px 32px;
+  display: flex;
+  gap: 10px;
+}
+.shadow:hover,
+.shadow:focus {
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.h3footer {
+  color: var(--main-color-white);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.newpartoffooter {
+  padding-left: 531px;
 }
