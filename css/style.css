@@ -27,6 +27,12 @@ footer {
   background: rgba(47, 48, 58, 1);
   height: 600px;
   width: 100%;
+  background-image: url(./images/icons.svg#icon-antenna-1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  background-image: linear-gradient(background: rgba(47, 48, 58, 0.4) ;);
 }
 .address {
   color: var(--main-color-white);
@@ -271,7 +277,11 @@ footer {
 }
 .loremipsummargin {
   margin-bottom: 94px;
+  margin-top: 30px;
 }
+/* .loremipsummargin {
+  margin-bottom: 94px; */
+
 .namemargin {
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   border-left: 1px solid rgba(255, 255, 255, 1);
@@ -340,4 +350,62 @@ footer {
 }
 figure > img {
   display: block;
+}
+.loremsvg {
+  list-style: none;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 94px;
+  gap: 30px;
+}
+.icon-smartphone,
+.icon-envelope {
+  margin-right: 10px;
+}
+.icon-envelope:hover,
+.icon-envelope:focus .icon-smartphone:hover,
+.icon-smartphone:hover {
+  stroke: var(--main-color-blue);
+}
+.ourteam-flex {
+  list-style: none;
+  display: flex;
+}
+.nasiklienci {
+  height: 372px;
+}
+/* .loremipsum-items > .icon-box {
+  height: 120px;
+  padding: 25px 0;
+  background: rgba(245, 244, 250, 1);
+  margin-bottom: 30px; */
+.icons-svg {
+  width: 44px;
+  height: 44px;
+}
+/* .julita {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+} */
+.nasiklienci-svg {
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+}
+.nasiklienci-margin {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.nasiklienci-main {
+  height: 372px;
+}
+.nasiklienci-general {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.icon-Picture1 {
+  width: 35px;
+  height: 33, 13px;
 }
