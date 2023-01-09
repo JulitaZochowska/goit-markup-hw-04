@@ -181,17 +181,14 @@ footer {
 .loremipsum h3 {
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .loremipsum p {
   line-height: 1.71;
   color: var(--main-color-grey);
 }
-.loremipsum {
-  display: flex;
-  gap: 30px;
-}
 .loremipsum-items {
-  list-style: none;
   justify-content: center;
   width: 270px;
 }
@@ -289,9 +286,13 @@ footer {
   margin-bottom: 94px;
   margin-top: 30px;
 }
-/* .loremipsummargin {
-  margin-bottom: 94px; */
-
+.loremipsum {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .namemargin {
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   border-left: 1px solid rgba(255, 255, 255, 1);
@@ -361,7 +362,7 @@ footer {
 figure > img {
   display: block;
 }
-.loremsvg {
+.loremsipsum {
   list-style: none;
   display: flex;
   margin-bottom: 30px;
@@ -443,4 +444,10 @@ figure > img {
 }
 .newpartoffooter {
   padding-left: 531px;
+}
+.icon-antenna-1,
+.icon-astronaut-1,
+.icon-diagram-1,
+.icon-clock-1 {
+  background-color: rgba(245, 244, 250, 1);
 }
