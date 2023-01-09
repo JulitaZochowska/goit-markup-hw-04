@@ -43,10 +43,18 @@
           </ul>
         </nav>
         <div class="secondpartheader">
-          <a class="interactive" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="interactiveplus" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="interactive" href="mailto:info@devstudio.com">
+            <svg class="icon-envelope">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="interactiveplus" href="tel:+48111111111">
+            <svg class="icon-smartphone">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111
+          </a>
         </div>
       </div>
     </header>
@@ -202,14 +210,49 @@
       </section>
     </main>
     <footer>
-      <div class="container">
-        <a href="./index.html" class="logo"
-          ><span class="firstpartlogo">Web</span
-          ><span class="secondpartlogo">Studio</span></a
-        >
-        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
-        <p class="email">info@example.com</p>
-        <p class="telnr">+48 111 111 111</p>
+      <div class="container footermain">
+        <div class="oldpartoffooter">
+          <a href="./index.html" class="logo"
+            ><span class="firstpartlogo">Web</span
+            ><span class="secondpartlogo">Studio</span></a
+          >
+          <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
+          <p class="email">info@example.com</p>
+          <p class="telnr">+48 111 111 111</p>
+        </div>
+        <div class="newpartoffooter">
+          <h3 class="h3footer">dołącz do nas</h3>
+          <ul class="socialmedia-icons-list">
+            <li>
+              <div class="socialmedia-icon">
+                <svg width="20" height="20" fill="white">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="socialmedia-icon">
+                <svg width="20" height="20" fill="white">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="socialmedia-icon">
+                <svg width="20" height="20" fill="white">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="socialmedia-icon">
+                <svg width="20" height="20" fill="white">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
