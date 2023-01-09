@@ -25,14 +25,19 @@ footer {
   padding-top: 60px;
 }
 .tittle {
-  /* background: rgba(47, 48, 58, 1); */
   height: 600px;
   width: 100%;
-  background-image: url(./images/tloportfolio.png);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/tloportfolio.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1600px;
+  margin: 0 auto;
 }
 .address {
   color: var(--main-color-white);
@@ -87,6 +92,7 @@ h1 {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+  stroke: var(--main-color-blue);
 }
 .interactive {
   color: var(--main-color-black);
@@ -103,6 +109,7 @@ h1 {
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
+  stroke: var(--main-color-blue);
 }
 .interactiveplus {
   color: var(--main-color-grey);
@@ -173,8 +180,7 @@ footer {
 }
 .loremipsum h3 {
   line-height: 1.14;
-  color: var(--main-color-black);
-  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .loremipsum p {
   line-height: 1.71;
@@ -182,7 +188,6 @@ footer {
 }
 .loremipsum {
   display: flex;
-  margin-top: 94px;
   gap: 30px;
 }
 .loremipsum-items {
@@ -367,10 +372,13 @@ figure > img {
 .icon-envelope {
   margin-right: 10px;
 }
-.icon-envelope:hover,
-.icon-envelope:focus .icon-smartphone:hover,
-.icon-smartphone:hover {
-  stroke: var(--main-color-blue);
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
 }
 .ourteam-flex {
   list-style: none;
