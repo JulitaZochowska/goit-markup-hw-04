@@ -382,8 +382,15 @@ figure > img {
   height: 16px;
 }
 .ourteam-flex {
+  margin: 16px 32px 30px 32px;
+}
+.socialmedia-icons-list {
   list-style: none;
   display: flex;
+  text-align: center;
+
+  display: flex;
+  gap: 10px;
 }
 .nasiklienci {
   height: 372px;
@@ -417,20 +424,16 @@ figure > img {
 }
 .socialmedia-icon {
   fill: var(--main-color-svg);
+
   width: 44px;
   height: 44px;
   padding-top: 12px;
+  border-radius: 22px;
 }
 .socialmedia-icon:hover,
 .socialmedia-icon:focus {
   background-color: var(--main-color-blue);
-  border-radius: 22px;
   fill: var(--main-color-white);
-}
-.ourteam-flex {
-  margin: 16px 32px 30px 32px;
-  display: flex;
-  gap: 10px;
 }
 .shadow:hover,
 .shadow:focus {
@@ -443,11 +446,22 @@ figure > img {
   line-height: 1.17;
 }
 .newpartoffooter {
-  padding-left: 531px;
+  padding-left: 70px;
 }
 .icon-antenna-1,
 .icon-astronaut-1,
 .icon-diagram-1,
 .icon-clock-1 {
   background-color: rgba(245, 244, 250, 1);
+}
+.footermain {
+  display: flex;
+  justify-content: flex-start;
+}
+.newpartoffooter h3 {
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+.newpartoffooter .socialmedia-icon {
+  background-color: rgba(255, 255, 255, 0.1);
 }
