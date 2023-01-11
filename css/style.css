@@ -133,7 +133,8 @@ h2 {
   line-height: 1.71;
 }
 .buttonstudio {
-  background-color: var(--main-color-button);
+  background-color: var(--main-color-blue);
+  color: var(--main-color-white);
   cursor: pointer;
   font-size: 16px;
   line-height: 1.88;
@@ -144,6 +145,7 @@ h2 {
   margin-top: 30px;
   text-align: center;
   letter-spacing: 6%;
+  border-radius: 4px;
 }
 button {
   background-color: var(--main-color-button);
@@ -157,18 +159,8 @@ button:hover,
 button:focus {
   color: var(--main-color-white);
   background-color: var(--main-color-blue);
-  font-size: 16px;
   line-height: 1.62;
   font-weight: 500;
-  text-align: center;
-}
-.buttonstudio:hover,
-.buttonstudio:focus {
-  color: var(--main-color-white);
-  background-color: var(--main-color-blue);
-  font-size: 16px;
-  line-height: 1.88;
-  font-weight: 700;
   text-align: center;
 }
 .tittle,
@@ -401,6 +393,7 @@ figure > img {
   border: 1px solid var(--main-color-svg);
   fill: var(--main-color-svg);
   border-radius: 4px;
+  cursor: pointer;
 }
 .nasiklienci-svg:hover,
 .nasiklienci-svg:focus {
@@ -424,20 +417,16 @@ figure > img {
 }
 .socialmedia-icon {
   fill: var(--main-color-svg);
-
+  cursor: pointer;
   width: 44px;
   height: 44px;
   padding-top: 12px;
   border-radius: 22px;
 }
-.socialmedia-icon:hover,
-.socialmedia-icon:focus {
-  background-color: var(--main-color-blue);
-  fill: var(--main-color-white);
-}
+
 .shadow:hover,
 .shadow:focus {
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .h3footer {
   color: var(--main-color-white);
@@ -463,5 +452,11 @@ figure > img {
   margin-top: 12px;
 }
 .newpartoffooter .socialmedia-icon {
+  fill: var(--main-color-white);
   background-color: rgba(255, 255, 255, 0.1);
+}
+.socialmedia-icon:hover,
+.socialmedia-icon:focus {
+  fill: var(--main-color-white);
+  background-color: var(--main-color-blue);
 }
