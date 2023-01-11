@@ -85,38 +85,32 @@ h1 {
   font-weight: 700;
   font-family: raleway;
 }
-.interactive:hover,
-.interactive:focus {
-  color: var(--main-color-blue);
-  line-height: 1.14;
+.interactive,
+.interactiveplus {
   font-size: 14px;
+  line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
-  stroke: var(--main-color-blue);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .interactive {
   color: var(--main-color-black);
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 500;
-  text-decoration: none;
   margin-right: 46px;
 }
-.interactiveplus:hover,
-.interactiveplus:focus {
+.interactive:hover,
+.interactive:focus {
   color: var(--main-color-blue);
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 500;
-  text-decoration: none;
   stroke: var(--main-color-blue);
 }
 .interactiveplus {
   color: var(--main-color-grey);
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 500;
-  text-decoration: none;
+}
+.interactiveplus:hover,
+.interactiveplus:focus {
+  color: var(--main-color-blue);
+  stroke: var(--main-color-blue);
 }
 h2 {
   font-size: 36px;
@@ -326,6 +320,7 @@ footer {
 .marketing {
   border-radius: 4px;
   text-align: center;
+  border: none;
 }
 .aplikacje {
   width: 114px;
@@ -360,10 +355,6 @@ figure > img {
   margin-bottom: 30px;
   margin-top: 94px;
   gap: 30px;
-}
-.icon-smartphone,
-.icon-envelope {
-  margin-right: 10px;
 }
 .icon-envelope {
   width: 16px;
