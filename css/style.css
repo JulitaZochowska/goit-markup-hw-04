@@ -94,9 +94,9 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
+  color: var(--main-color-grey);
 }
 .interactive {
-  color: var(--main-color-black);
   margin-right: 46px;
 }
 .interactive:hover,
@@ -105,7 +105,6 @@ h1 {
   stroke: var(--main-color-blue);
 }
 .interactiveplus {
-  color: var(--main-color-grey);
 }
 .interactiveplus:hover,
 .interactiveplus:focus {
@@ -140,6 +139,7 @@ h2 {
   text-align: center;
   letter-spacing: 6%;
   border-radius: 4px;
+  border: none;
 }
 button {
   background-color: var(--main-color-button);
@@ -154,7 +154,6 @@ button:focus {
   color: var(--main-color-white);
   background-color: var(--main-color-blue);
   line-height: 1.62;
-  font-weight: 500;
   text-align: center;
 }
 .tittle,
@@ -359,10 +358,12 @@ figure > img {
 .icon-envelope {
   width: 16px;
   height: 12px;
+  fill: var(--main-color-grey);
 }
 .icon-smartphone {
   width: 10px;
   height: 16px;
+  fill: var(--main-color-grey);
 }
 .ourteam-flex {
   margin: 16px 32px 30px 32px;
@@ -392,11 +393,10 @@ figure > img {
   border-color: var(--main-color-blue);
 }
 .nasiklienci-margin {
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 .nasiklienci-main {
-  height: 372px;
+  margin: 94px auto;
 }
 .nasiklienci-general {
   list-style: none;
