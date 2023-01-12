@@ -95,6 +95,7 @@ h1 {
   align-items: center;
   gap: 10px;
   color: var(--main-color-grey);
+  fill: var(--main-color-grey);
 }
 .interactive {
   margin-right: 46px;
@@ -102,14 +103,14 @@ h1 {
 .interactive:hover,
 .interactive:focus {
   color: var(--main-color-blue);
-  stroke: var(--main-color-blue);
+  fill: var(--main-color-blue);
 }
 .interactiveplus {
 }
 .interactiveplus:hover,
 .interactiveplus:focus {
   color: var(--main-color-blue);
-  stroke: var(--main-color-blue);
+  fill: var(--main-color-blue);
 }
 h2 {
   font-size: 36px;
@@ -358,12 +359,10 @@ figure > img {
 .icon-envelope {
   width: 16px;
   height: 12px;
-  fill: var(--main-color-grey);
 }
 .icon-smartphone {
   width: 10px;
   height: 16px;
-  fill: var(--main-color-grey);
 }
 .ourteam-flex {
   margin: 16px 32px 30px 32px;
