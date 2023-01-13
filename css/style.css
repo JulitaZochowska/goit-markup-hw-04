@@ -85,8 +85,7 @@ h1 {
   font-weight: 700;
   font-family: raleway;
 }
-.interactive,
-.interactiveplus {
+.interactive {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
@@ -96,8 +95,6 @@ h1 {
   gap: 10px;
   color: var(--main-color-grey);
   fill: var(--main-color-grey);
-}
-.interactive {
   margin-right: 46px;
 }
 .interactive:hover,
@@ -105,12 +102,8 @@ h1 {
   color: var(--main-color-blue);
   fill: var(--main-color-blue);
 }
-.interactiveplus {
-}
-.interactiveplus:hover,
-.interactiveplus:focus {
-  color: var(--main-color-blue);
-  fill: var(--main-color-blue);
+.interactive.last {
+  margin-right: 0;
 }
 h2 {
   font-size: 36px;
@@ -125,6 +118,20 @@ h2 {
   color: var(--main-color-white-plus);
   font-size: 14px;
   line-height: 1.71;
+  cursor: pointer;
+}
+.email:hover,
+.email:focus,
+.telnr:hover,
+.telnr:focus,
+.logo:focus,
+.logo:hover,
+.address:hover,
+.address:focus,
+.newpartoffooter h3:focus,
+.newpartoffooter h3:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--main-color-blue);
 }
 .buttonstudio {
   background-color: var(--main-color-blue);
@@ -143,7 +150,7 @@ h2 {
   border: none;
 }
 button {
-  background-color: var(--main-color-button);
+  background-color: var(--main-color-blue);
   cursor: pointer;
   font-size: 16px;
   line-height: 1.62;
@@ -358,7 +365,7 @@ figure > img {
 }
 .icon-envelope {
   width: 16px;
-  height: 12px;
+  height: 10px;
 }
 .icon-smartphone {
   width: 10px;
